@@ -7,7 +7,7 @@ function App() {
   let [글제목, 글제목변경] = useState(['남자 코트 추천', '강남 우동맛집', '파이썬독학']);
   let [좋아요, 좋아요변경] = useState(0);
 
-  return (
+  return ( 
     <div className="App">
       <div className="black-nav">
         <h4>Blog</h4>
